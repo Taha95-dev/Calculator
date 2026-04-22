@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="stylesheet.css">
+<title>Pro Calculator with Side History</title>
+</head>
+<body>
+<div class="container">
+    <div class="calculator-wrapper">
+        <!-- Calculator -->
+        <div class="calculator">
+            <input type="text" id="display" readonly>
+            <div class="buttons"></div>
+            <button id="clearHistory">Clear History</button>
+            <button id="pi">π</button>
+            <button id="E">e</button>
+            <button id="power">^x</button>
+        </div>
+
+        <!-- History Panel -->
+        <div class="history-panel">
+            <h3>History</h3>
+            <ul id="history"></ul>
+        </div>
+    </div>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
